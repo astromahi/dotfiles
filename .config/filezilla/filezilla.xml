@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3>
+    <Settings>
+        <Setting name="Use Pasv mode">1</Setting>
+        <Setting name="Limit local ports">0</Setting>
+        <Setting name="Limit ports low">6000</Setting>
+        <Setting name="Limit ports high">7000</Setting>
+        <Setting name="External IP mode">0</Setting>
+        <Setting name="External IP" />
+        <Setting name="External address resolver">http://ip.filezilla-project.org/ip.php</Setting>
+        <Setting name="Last resolved IP" />
+        <Setting name="No external ip on local conn">1</Setting>
+        <Setting name="Pasv reply fallback mode">0</Setting>
+        <Setting name="Timeout">20</Setting>
+        <Setting name="Logging Debug Level">0</Setting>
+        <Setting name="Logging Raw Listing">0</Setting>
+        <Setting name="fzsftp executable" />
+        <Setting name="Allow transfermode fallback">1</Setting>
+        <Setting name="Reconnect count">2</Setting>
+        <Setting name="Reconnect delay">5</Setting>
+        <Setting name="Enable speed limits">0</Setting>
+        <Setting name="Speedlimit inbound">100</Setting>
+        <Setting name="Speedlimit outbound">20</Setting>
+        <Setting name="Speedlimit burst tolerance">0</Setting>
+        <Setting name="View hidden files">0</Setting>
+        <Setting name="Preserve timestamps">0</Setting>
+        <Setting name="Socket recv buffer size (v2)">4194304</Setting>
+        <Setting name="Socket send buffer size (v2)">262144</Setting>
+        <Setting name="FTP Keep-alive commands">0</Setting>
+        <Setting name="FTP Proxy type">0</Setting>
+        <Setting name="FTP Proxy host" />
+        <Setting name="FTP Proxy user" />
+        <Setting name="FTP Proxy password" />
+        <Setting name="FTP Proxy login sequence" />
+        <Setting name="SFTP keyfiles">/opt/FileZilla3/bin/aws_ec2</Setting>
+        <Setting name="Proxy type">0</Setting>
+        <Setting name="Proxy host" />
+        <Setting name="Proxy port">0</Setting>
+        <Setting name="Proxy user" />
+        <Setting name="Proxy password" />
+        <Setting name="Logging file" />
+        <Setting name="Logging filesize limit">10</Setting>
+        <Setting name="Trusted root certificate" />
+        <Setting name="Size format">2</Setting>
+        <Setting name="Size thousands separator">1</Setting>
+        <Setting name="Size decimal places">1</Setting>
+        <Setting name="Number of Transfers">2</Setting>
+        <Setting name="Ascii Binary mode">0</Setting>
+        <Setting name="Auto Ascii files">am|asp|bat|c|cfm|cgi|conf|cpp|css|dhtml|diz|h|hpp|htm|html|in|inc|java|js|jsp|lua|m4|mak|md5|nfo|nsi|pas|patch|php|phtml|pl|po|py|qmail|sh|shtml|sql|svg|tcl|tpl|txt|vbs|xhtml|xml|xrc</Setting>
+        <Setting name="Auto Ascii no extension">1</Setting>
+        <Setting name="Auto Ascii dotfiles">1</Setting>
+        <Setting name="Theme">opencrystal/</Setting>
+        <Setting name="Language Code" />
+        <Setting name="Last Server Path">1 0</Setting>
+        <Setting name="Concurrent download limit">0</Setting>
+        <Setting name="Concurrent upload limit">0</Setting>
+        <Setting name="Update Check">1</Setting>
+        <Setting name="Update Check Interval">7</Setting>
+        <Setting name="Last automatic update check">2015-04-09 09:58:13</Setting>
+        <Setting name="Update Check New Version">release 3.10.3&#x0A;&#x0A;3.10.3 (2015-03-29)&#x0A;&#x0A;- Fixed crash if changing number of simultaneous transfers while transferring files&#x0A;- Fixed local filelist statusbar regression introduced in 3.10.3-beta2&#x0A;&#x0A;3.10.3-rc1 (2015-03-21)&#x0A;&#x0A;- If saving passwords is disabled, don&apos;t ask for the password again after connecting via the quickconnect bar and then starting a download via drag&amp;drop.&#x0A;- Small performance improvements&#x0A;&#x0A;3.10.3-beta2 (2015-03-16)&#x0A;&#x0A;- Minimum timeout value is now 10 seconds, up from 5 seconds to prevent timeouts uploading to servers with slow storage&#x0A;- Fixed an assert with invalid file sizes&#x0A;- Small performance improvements&#x0A;&#x0A;3.10.3-beta1 (2015-03-14)&#x0A;&#x0A;+ FileZilla is now also available as 64bit Windows program. Users of 32bit FileZilla on 64bit Windows will get automatically migrated using the auto-updater&#x0A;+ Added option to enable SFTP compression&#x0A;&#x0A;3.10.2 (2015-03-02)&#x0A;&#x0A;- When finding the local name of a remote file to be edited, use case-insensitive comparison&#x0A;- Updated SFTP components from PuTTY&#x0A;- MSW: Cleaned up runtime dependencies&#x0A;- Fix crash introduced in rc2 when there is no password element for a saved item&#x0A;&#x0A;3.10.2-rc2 (2015-02-25)&#x0A;&#x0A;+ OS X binaries are now 64bit&#x0A;+ MSW: The installer configures Windows Error Reporting to save minidumps in %LOCALAPPDATA%\CrashDumps if filezilla.exe crashes&#x0A;+ The updater now submits CPU capabilities when checking for updates. In a future version support for CPUs without SSE2 support will be dropped&#x0A;+ In the XML files, passwords are now base64 encoded&#x0A;- Fix HTTP proxy handshake if no proxy username is set&#x0A;- Fix state of filter toolbar button if dismissing filter dialog&#x0A;- At the end of transfers, errors writing all downloaded data to disk were not always detected&#x0A;&#x0A;3.10.2-rc1 (2015-02-21)&#x0A;&#x0A;+ When reopening files already being edited, preselect the previously used selection&#x0A;+ The subject area in the certificate verification can now be scrolled if the certificate contains many alternative names&#x0A;+ Many performance improvements&#x0A;- Fixed display of total transfer size in message log for SFTP transfers&#x0A;- MSW: Fixed sorting of sites in Site Manager&#x0A;- MSW: Fix initial focus after starting FileZilla to be in the quickconnect bar again&#x0A;- Fixed bug in GnuTLS where the AES-NI instruction set wasn&apos;t always used when available&#x0A;- Refresh directory trees if sort mode changes&#x0A;- Fix potential crash if disconnecting during ongoing transfers&#x0A;- Fix updating the transfer progress bar when uploading files via SFTP with a low speed limit set&#x0A;&#x0A;3.10.1.1 (2015-02-01)&#x0A;&#x0A;- Fix editing of files with the same name in different directories&#x0A;&#x0A;3.10.1 (2015-01-31)&#x0A;&#x0A;- Don&apos;t override proxy settings if loading an implicit session from PuTTY&#x0A;- Silently delete junk files left behind by some editors in the temporary directory&#x0A;&#x0A;3.10.1-rc1 (2015-01-24)&#x0A;&#x0A;+ Fixed wording of some error messages when using FTP over TLS&#x0A;+ Display subject alternative names in certificate verification dialog&#x0A;+ If re-editing multiple files already being edited, add a checkbox to apply action to all selected file&#x0A;- Editing the same local file multiple times no longer results in an error message&#x0A;- Display SHA-256 fingerprints in certificate verification dialog, no longer display MD5 fingerprints.&#x0A;- Disable insecure RC4 algorithm in FTP over TLS&#x0A;- *nix: Fix assertion when opening the file exists dialog on some multi-display systems&#x0A;- Deleting items in the Site Manager now correctly upates the right-hand side of the dialog&#x0A;- Dragging items in the Site Manager no longer makes the default port appear in the port input box&#x0A;- OS X: Multi-line text edit controls no longer act like rich-text edit controls and no longer perform quote substitution&#x0A;&#x0A;3.10.0.2 (2015-01-16)&#x0A;&#x0A;- Fix a crash if a keyfile has been configured for SFTP and this file has become missing or corrupted&#x0A;- *nix, OS X: Fix permissions on files uploaded via SFTP.&#x0A;&#x0A;3.10.0.1 (2015-01-12)&#x0A;&#x0A;- TLS handshakes no longer stall if the server sends ginormous packets during the handshake that do not fit into a single TLS record&#x0A;- Fix loading and saving the same queue item multiple times&#x0A;- Post-login commands now work with the protocol set to plain FTP&#x0A;- MSW: Allow uploading files that are locally opened for writing by another program&#x0A;- OS X: Fix layout issues in search dialog and filter conditions dialog&#x0A;&#x0A;3.10.0 (2015-01-07)&#x0A;&#x0A;- Fixed default file exists actions broken by rc1&#x0A;&#x0A;3.10.0-rc2 (2015-01-03)&#x0A;&#x0A;+ Added Welsh translation&#x0A;+ Data type indicator in the status bar now reacts to left-clicks as well&#x0A;- MSW: Fix crash when displaying the drive list&#x0A;&#x0A;3.10.0-rc1 (2014-12-29)&#x0A;&#x0A;+ Reduced memory consumption of large queues&#x0A;+ Preliminary support for Windows 10 technical preview&#x0A;+ MSW: FileZilla running on a 64bit Windows can now use up to 4GiB of RAM, up from 2GiB&#x0A;- Fixed memory leaks in SFTP component&#x0A;- Fixed fzsftp crashing on disconnect if using keyfiles&#x0A;- Various code cleanup and minor fixes&#x0A;&#x0A;3.10.0-beta3 (2014-12-19)&#x0A;&#x0A;+ The search dialog now has checkboxes to only search for files or directories&#x0A;+ In the file lists, Ctrl+Shift+N can now be used to create new directories&#x0A;+ Added an additional icon theme&#x0A;+ Small performance improvements parsing large directory listings&#x0A;+ Updated SFTP components from PuTTY&#x0A;- Fixed applying file exists actions to files currently in the queue&#x0A;- Don&apos;t send the PBSZ and PROT commands to servers that have rejected AUTH TLS/SSL&#x0A;&#x0A;3.10.0-beta2 (2014-12-05)&#x0A;&#x0A;- Fixed uploads constantly timing out&#x0A;- Log abbreviation now works correctly when cancelling a pending connection retry&#x0A;- Fixed a timing issue in the updater. Users of 3.10.0-beta1 need to update manually.&#x0A;- Speed limits no longer reset when opening the settings dialog&#x0A;- Fix reporting of transfer progress&#x0A;- Theme preview in the settings dialog now properly displays non-standard theme sizes&#x0A;&#x0A;3.10.0-beta1 (2014-12-03)&#x0A;&#x0A;+ FTP over TLS is now used by default if the server supports it. Use of plain FTP can be enforced for a server in the Site Manager&#x0A;+ Connection handling and transferring files has been moved into its own thread to improve GUI responsivenes&#x0A;+ The message log now only shows abbreviated logs unless an error occurs&#x0A;+ Added option to pre-allocate disk space when downloading files&#x0A;+ Files editing can now be started from the search dialog&#x0A;+ Directory trees and the Site Manager tree can now be drag-scrolled&#x0A;+ *nix: FileZilla no longer depends on libidn if getaddrinfo supports AI_IDN&#x0A;&#x0A;3.9.0.6 (2014-10-20)&#x0A;&#x0A;! Disabled support for legacy SSL 3.0 to address the POODLE vulnerability in SSLv3. (CVE-2014-3566)&#x0A;- Fixed generic proxy support in IPv6 environments&#x0A;- Small improvements of control sizes on high-dpi displays&#x0A;- OS X: Fix Drag&amp;Drop while holding down the Ctrl key (or equivalent)&#x0A;- Fix potential crash dragging files over an empty list&#x0A;</Setting>
+        <Setting name="Update Check Check Beta">0</Setting>
+        <Setting name="Update Check Download Dir" />
+        <Setting name="Show debug menu">1</Setting>
+        <Setting name="File exists action download">0</Setting>
+        <Setting name="File exists action upload">0</Setting>
+        <Setting name="Allow ascii resume">0</Setting>
+        <Setting name="Greeting version">3.9.0.5</Setting>
+        <Setting name="Onetime Dialogs">00011</Setting>
+        <Setting name="Show Tree Local">0</Setting>
+        <Setting name="Show Tree Remote">0</Setting>
+        <Setting name="File Pane Layout">0</Setting>
+        <Setting name="File Pane Swap">0</Setting>
+        <Setting name="Last local directory">/</Setting>
+        <Setting name="Filelist directory sort">0</Setting>
+        <Setting name="Queue successful autoclear">0</Setting>
+        <Setting name="Queue column widths">180 60 180 80 60 150</Setting>
+        <Setting name="Local filelist colwidths">191 80 100 120</Setting>
+        <Setting name="Remote filelist colwidths">252 75 94 100 80 80</Setting>
+        <Setting name="Window position and size">0 121 108 1044 587 </Setting>
+        <Setting name="Splitter positions (v2)">62 -97 483162517 92 92 500000000</Setting>
+        <Setting name="Local filelist sortorder">0 0</Setting>
+        <Setting name="Remote filelist sortorder">0 0</Setting>
+        <Setting name="Time Format">0</Setting>
+        <Setting name="Date Format">0</Setting>
+        <Setting name="Show message log">1</Setting>
+        <Setting name="Show queue">1</Setting>
+        <Setting name="Default editor">1</Setting>
+        <Setting name="Always use default editor">1</Setting>
+        <Setting name="Inherit system associations">1</Setting>
+        <Setting name="Custom file associations">php /usr/bin/gedit&#x0A;tpl /usr/bin/gedit&#x0A;. /usr/bin/gedit&#x0A;js /usr/bin/gedit&#x0A;profile /usr/bin/gedit&#x0A;inc /usr/bin/gedit&#x0A;html /usr/bin/gedit&#x0A;css /usr/bin/gedit&#x0A;sql /usr/bin/gedit&#x0A;/ /usr/bin/gedit</Setting>
+        <Setting name="Comparison mode">1</Setting>
+        <Setting name="Comparison threshold">1</Setting>
+        <Setting name="Site Manager position">0 393 135 588 529 </Setting>
+        <Setting name="Theme icon size">16x16</Setting>
+        <Setting name="Timestamp in message log">1</Setting>
+        <Setting name="Sitemanager last selected">0/KSR/ebuydeal.co.uk</Setting>
+        <Setting name="Local filelist shown columns">1111</Setting>
+        <Setting name="Remote filelist shown columns">111111</Setting>
+        <Setting name="Local filelist column order">0,1,2,3</Setting>
+        <Setting name="Remote filelist column order">0,1,2,3,4,5</Setting>
+        <Setting name="Filelist status bar">1</Setting>
+        <Setting name="Filter toggle state">0</Setting>
+        <Setting name="Show quickconnect bar">1</Setting>
+        <Setting name="Messagelog position">0</Setting>
+        <Setting name="Last connected site" />
+        <Setting name="File doubleclock action">0</Setting>
+        <Setting name="Dir doubleclock action">0</Setting>
+        <Setting name="Minimize to tray">0</Setting>
+        <Setting name="Search column widths" />
+        <Setting name="Search column shown" />
+        <Setting name="Search column order" />
+        <Setting name="Search window size">0 332 135 707 441 </Setting>
+        <Setting name="Comparison hide identical">0</Setting>
+        <Setting name="Search sort order" />
+        <Setting name="Edit track local">1</Setting>
+        <Setting name="Prevent idle sleep">1</Setting>
+        <Setting name="Filteredit window size" />
+        <Setting name="Enable invalid char filter">1</Setting>
+        <Setting name="Invalid char replace">_</Setting>
+        <Setting name="Already connected choice">2</Setting>
+        <Setting name="Edit status dialog size" />
+        <Setting name="Display current speed">0</Setting>
+        <Setting name="Toolbar hidden">0</Setting>
+        <Setting name="Strip VMS revisions">0</Setting>
+        <Setting name="Show Site Manager on startup">0</Setting>
+        <Setting name="Prompt password change">0</Setting>
+        <Setting name="Config Location">/home/astromahi/.config/filezilla</Setting>
+        <Setting name="Kiosk mode">0</Setting>
+        <Setting name="Disable update check">0</Setting>
+        <LastServer>
+            <Host>blog.andschool.in</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>blog@sfarzana.com</User>
+            <Pass>eWy9%sg?Z86k</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+        </LastServer>
+    </Settings>
+</FileZilla3>

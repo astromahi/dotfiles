@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3>
+    <Layout Builddate="2014-09-06" Buildtime="16:50:28">
+        <Resources>
+            <xrc file="quickconnectbar.xrc" date="1410022286" />
+            <xrc file="certificate.xrc" date="1410022286" />
+            <xrc file="dialogs.xrc" date="1410022286" />
+            <xrc file="netconfwizard.xrc" date="1410022286" />
+            <xrc file="update.xrc" date="1410022286" />
+            <xrc file="toolbar.xrc" date="1410022286" />
+            <xrc file="menus.xrc" date="1410022286" />
+            <xrc file="sitemanager.xrc" date="1410022286" />
+            <xrc file="settings.xrc" date="1410022286" />
+            <xrc file="inputdialog.xrc" date="1410022286" />
+        </Resources>
+        <Language id="default" date="">
+            <Font font="Cantarell 11" width="653" height="15" />
+            <Dialog name="Settings" width="470" />
+        </Language>
+    </Layout>
+</FileZilla3>
